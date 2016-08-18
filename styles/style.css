@@ -83,12 +83,22 @@
 	line-height: 24px;
 	margin: 0 auto;
 	padding: 0.75em;
-	position: absolute;
+	position: fixed;
 	top: 40%;
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	width: 66%;
 	z-index: 25;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.75);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5;
 }
 
 /* ---- Form Styles ---- */
@@ -120,21 +130,12 @@ label {
 	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 	width: 95%;
 }
+
 /* ---- Global Styles ---- */
 
 .hide {
 	display: none;
 	z-index: -1;
-}
-
-.overlay {
-	background-color: rgba(0, 0, 0, 0.75);
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 5;
 }
 
 html, body {
@@ -152,7 +153,6 @@ html, body {
 body {
 	background: url('../images/stock_103455395.png') no-repeat center center fixed;
 	background-size: cover;
-
 }
 
 .modal-open {
