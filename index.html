@@ -29,16 +29,18 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="body">
+	<div class="overlay hide"></div>
+
 	<div class="hero-container">
-		<div class="hero-text-top">
+		<div class="hero-text-top text-center">
 			<h1 class="ferrum-name">Ferrum Media</h1>
 
 			<sub class="coming-soon">Coming Soon</sub>
 		</div>
 
-		<div class="hero-text-bottom">
-			<button type="button" class="btn btn-outline-primary btn-update-button">
+		<div class="hero-text-bottom text-center">
+			<button class="btn btn-outline-white btn-update-button btn-lg btn-transition" type="button">
 				Keep in touch
 			</button>
 		</div>
@@ -46,6 +48,26 @@
 
 	<div class="text-container">
 		<p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis neque placerat ligula commodo posuere id in nulla. Donec at elit justo. Praesent nec gravida risus, in porta ipsum. Praesent blandit odio ac dolor suscipit eleifend. Aliquam vestibulum neque ut sagittis varius. Nam sit amet arcu quis eros vestibulum posuere.</p>
+	</div>
+
+	<div class="modal modal-container hide">
+		<div class="modal-header text-right">
+			<button class="btn btn-transparent-white btn-close-modal" type="button">X</button>
+		</div>
+
+		<form action="" method="post">
+			<div class="form-group">
+				<label>Email Address</label>
+
+				<input class="form-control" placeholder="Email Address" type="email">
+			</div>
+
+			<div class="form-group text-right">
+				<button class="btn btn-outline-white btn-submit" type="submit">
+					Submit
+				</button>
+			</div>
+		</form>
 	</div>
 
 	 <!-- JS -->
