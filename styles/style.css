@@ -155,6 +155,16 @@ body {
 	background-size: cover;
 }
 
+.background-image-blur {
+	background-color: rgba(0, 0, 0, 0.25);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
 .modal-open {
 	overflow: hidden;
 }
@@ -166,6 +176,7 @@ body {
 	position: relative;
 	margin-top: -4.20em;
 	width: 100vw;
+	z-index: 3;
 }
 
 .hero-text-top {
@@ -180,6 +191,7 @@ body {
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	width: 100%;
+	z-index: 3;
 }
 
 .hero-text-bottom {
@@ -191,16 +203,16 @@ body {
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	width: 100%;
+	z-index: 3;
 }
 
 /* ---- Ferrum Name ---- */
 
 .ferrum-name {
 	display: inline-block;
-
 	font-weight: 300;
 	font-size: 4em;
-
+	z-index: 3;
 }
 
 /* ---- Coming Soon ---- */
@@ -209,9 +221,14 @@ body {
 	display: block;
 	font-size: 1em;
 	letter-spacing: 2px;
+	z-index: 3;
 }
 
 /* ---- Example Text ---- */
+
+.text-container {
+	z-index: 3;
+}
 
 .body-text {
 	background: rgba(255, 255, 255, 0.75);
@@ -219,6 +236,7 @@ body {
 	width: 75vw;
 	padding: 1em;
 	margin: 0 auto 1em auto;
+	z-index: 3;
 }
 
 /* ---- Mobile ---- */
