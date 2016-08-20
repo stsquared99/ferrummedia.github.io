@@ -80,6 +80,10 @@
 	overflow: hidden;
 }
 
+.modal-open .modal-hide {
+	display: none;
+}
+
 .modal-header {
 	padding: 0.5em 0;
 }
