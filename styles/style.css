@@ -264,6 +264,10 @@ body {
 	.hide-mobile {
 		display: none !important;
 	}
+
+	.form-control {
+		width: 90%;
+	}
 }
 
 @media (min-width: 561px) {
