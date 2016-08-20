@@ -253,6 +253,10 @@ body {
 
 /* ---- Mobile ---- */
 
+@-ms-viewport{
+	width: device-width;
+}
+
 @media (max-width: 560px) {
 	.ferrum-name {
 		font-size: 2em;
