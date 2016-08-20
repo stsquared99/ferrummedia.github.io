@@ -76,6 +76,13 @@
 
 /* ---- Modal Styles ---- */
 
+.modal-open {
+	overflow: hidden;
+}
+
+.modal-header {
+	padding: 0.5em 0;
+}
 .modal {
 	height: 33%;
 	left: 50%;
@@ -165,20 +172,11 @@ body {
 	z-index: -1;
 }
 
-.modal-open {
-	overflow: hidden;
-}
-
 /* ---- Logo ---- */
 
-.desktop-logo {
+.logo {
 	height: auto;
 	width: 25em;
-}
-
-.mobile-logo {
-	height: auto;
-	width: 6em;
 }
 
 /* ---- Hero Banner ---- */
@@ -258,8 +256,9 @@ body {
 }
 
 @media (max-width: 560px) {
-	.ferrum-name {
-		font-size: 2em;
+	.logo {
+		height: auto;
+		width: 15em;
 	}
 
 	.hide-mobile {
