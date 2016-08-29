@@ -114,8 +114,8 @@ h6 {
 }
 
 html, body {
-	background-color: #FAFAFA;
-	color: #333;
+	background-color: #333;
+	color: #FDCA00;
 	display: block;
 	font-family: 'Oswald', sans-serif;
 	height: 100vh;
@@ -154,7 +154,6 @@ html, body {
 }
 
 .main-hero {
-	color: #FDCA00;
 	position: relative;
 	text-transform: uppercase;
 }
@@ -171,7 +170,6 @@ html, body {
 
 .main-hero-image {
 	background-attachment: fixed;
-	background-image: url('../images/assets/home/main-hero.png');
 	-webkit-filter: grayscale(100%) brightness(0.5);
 	filter: grayscale(100%) brightness(0.5);
 }
@@ -194,7 +192,12 @@ html, body {
 }
 
 .text-section {
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
+}
+
+.email-hero-image {
+ 	-webkit-filter: brightness(0.66);
+ 	filter: brightness(0.66);
 }
 
 /* Mailchimp Form */
