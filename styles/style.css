@@ -29,7 +29,6 @@
 	background-color: #FFF
 }
 
-
 /* ---- Modal Styles ---- */
 
 .modal-open {
@@ -192,6 +191,10 @@ html, body {
 
 .content-header {
 	font-size: 2em;
+}
+
+.text-section {
+	letter-spacing: 0.5px;
 }
 
 /* Mailchimp Form */
