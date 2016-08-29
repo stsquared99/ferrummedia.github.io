@@ -223,6 +223,11 @@ html, body {
 	width: 90%;
 }
 
+input,
+textarea {
+	color: #333;
+}
+
 /* Mobile first queries */
 
 /* Larger than mobile */
