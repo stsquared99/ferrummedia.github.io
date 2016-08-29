@@ -170,6 +170,7 @@ html, body {
 
 .main-hero-image {
 	background-attachment: fixed;
+	background-image: url('../images/assets/home/main-hero.png');
 	-webkit-filter: grayscale(100%) brightness(0.5);
 	filter: grayscale(100%) brightness(0.5);
 }
