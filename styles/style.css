@@ -26,6 +26,8 @@
 }
 
 .btn-update-button {
+	border-color: #FDCA00;
+	color: #FDCA00;
 	font-size: 2.5rem;
 }
 
@@ -168,7 +170,7 @@ html, body {
 }
 
 .arrow-slide {
-	color: #FFF;
+	color: #FDCA00;
 	display: inline-block;
 	left: 0;
 	position: relative;
@@ -262,14 +264,9 @@ html, body {
 	letter-spacing: 1px;
 }
 
-.darken-image {
-	-webkit-filter: brightness(0.5);
-	filter: brightness(0.5);
-}
-
-.email-hero-image {
- 	-webkit-filter: brightness(0.66);
-	filter: brightness(0.66);
+.black-white-image {
+	-webkit-filter: grayscale(100%) brightness(0.5);
+	filter: grayscale(100%) brightness(0.5);
 }
 
 .hidden-text-content {
