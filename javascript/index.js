@@ -3,19 +3,25 @@ var body = document.body;
 var modal = document.querySelector('.modal');
 var overlay = document.querySelector('.overlay');
 var submitButton = document.querySelector('.btn-update-button');
+var toggleSlide = document.querySelectorAll('.toggle-slide');
 
 var modalClose = modal.querySelector('.btn-close-modal');
 
+var slide = function(event) {
+	var ct = event.currentTarget;
+	var column = ct.parentNode.parentNode.parentNode;
+	var row = column.parentNode;
+
+	ct.classList.toggle('active-slide');
+	column.classList.toggle('active');
+	row.classList.toggle('start-slide');
+}
+
 
 var toggleModal = function() {
-	console.log("click");
-
-
 	body.classList.toggle('modal-open');
 	modal.classList.toggle('hide');
 	overlay.classList.toggle('hide');
-
-	console.log(body.classList);
 }
 
 // Close modal with esc key
@@ -38,3 +44,7 @@ document.onkeydown = function(evt) {
 
 submitButton.addEventListener('click', toggleModal);
 modalClose.addEventListener('click', toggleModal);
+
+for (var i = 0; i < toggleSlide.length; i++) {
+	toggleSlide[i].addEventListener('click', slide, false);
+}
