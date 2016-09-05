@@ -275,6 +275,8 @@ html, body {
 .hidden-text-content {
 	visibility: hidden;
 	opacity: 0;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
 }
 
 .active .hidden-text-content {
