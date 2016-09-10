@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 /* ---- Typography Styles ---- */
 
 .text-center {
@@ -111,7 +115,6 @@ html, body {
 	top: 0;
 	width: 100vw;
 	overflow-x: hidden;
-	scroll-behavior: smooth;
 }
 
 .container-full {
