@@ -232,8 +232,17 @@ html, body {
 }
 
 .main-hero {
+	padding: 0 !important;
 	position: relative;
 	text-transform: uppercase;
+}
+
+.centered-text {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .hero-image, .section-image-background {
